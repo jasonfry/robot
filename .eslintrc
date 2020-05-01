@@ -14,5 +14,15 @@
         "react": {
             "version": "detect"
         }
+    },
+    "rules": {
+        "space-before-function-paren": ["error", "always"],
+        "jsx-quotes": ["error", "prefer-double"],
+        "react/jsx-tag-spacing": ["error", {
+            "closingSlash": "never",
+            "beforeSelfClosing": "always",
+            "afterOpening": "never",
+            "beforeClosing": "never"  
+        }]
     }
   }

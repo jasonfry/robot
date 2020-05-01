@@ -1,8 +1,8 @@
 import React from 'react';
 
-function App(): JSX.Element {
+function App (): JSX.Element {
   return (
-    <div className="App" >
+    <div className="App">
       <header className="App-header">
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
